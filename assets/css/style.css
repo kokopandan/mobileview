@@ -1,0 +1,80 @@
+html, body {
+    height: 100% !important; 
+    margin: 0;
+    position: relative;
+    font-family: "Open Sans" , sans-serif;
+}
+
+.wrap-content{
+    padding: 20px;
+}
+
+/* Header */
+
+.nav-link{
+    display: block !important;
+}
+
+.menu-icon{
+    display: inline;
+    margin-right: 5px;
+}
+
+/* side menu */
+.side-menu-container{
+    background-color:  #fff;
+    height: 100%  !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: none;
+}
+
+
+
+.content-header-side-menu{
+    background-color: #16a085;
+    height: 180px;
+}
+
+.header-side-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.close-btn{
+    flex: 1;
+    color: white;
+}
+
+.text-daftar{
+    flex: 1;
+    text-align: right;
+   
+}
+.text-daftar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.body-header-side-menu{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.body-header-side-menu  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-body-side-menu h3{
+    font-size: 18px;
+}
+
+/* utilities */
+.borderform-rounded{
+    border-radius: 50px !important;
+}
